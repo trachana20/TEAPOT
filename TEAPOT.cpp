@@ -40,7 +40,8 @@ void Display_Objects(void)
 
     // draw a wire cone    
     glTranslatef(5.0, 0.0, 0.0);
-    glColor3f(0.0, 0.6, 1.0);
+    // glColor3f(0.0, 0.6, 1.0);
+    glColor3f(0.2, 0.5, 0.3);
     glutWireCone(0.8, 1.5, 20, 20);
 
     // draw a wire cube    
@@ -99,7 +100,8 @@ int main(int argc, char** argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     // set window size    
-    glutInitWindowSize(700, 500);
+    // glutInitWindowSize(700, 500);
+    glutInitWindowSize(500, 500);
     // set window location    
     glutInitWindowPosition(250, 50);
     // create window with window text    
